@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Kiss Lajos",
+        "age": "36",
+        "city": "Pécs"
+    },
+    {
+        "id": "2",
+        "name": "Szabó Winnetou",
+        "age": "29",
+        "city": "Kőszeg"
+    },
+    {
+        "id": "3",
+        "name": "Mészáros Lőrinc",
+        "age": "52",
+        "city": "Felcsút"
+    },
+    {
+        "id": "4",
+        "name": "Kossuth Lajos",
+        "age": "54",
+        "city": "Brüsszel"
+    },
+    {
+        "id": "5",
+        "name": "Kim Jong-un",
+        "age": "40",
+        "city": "Pyongyang"
+    },
+    {
+        "id": "6",
+        "name": "Pavel Petofi",
+        "age": "15",
+        "city": "Barguzin"
+    },
+    {
+        "id": "7",
+        "name": "<script>alert(\"hello\")</script>Kovács Géza",
+        "age": "21",
+        "city": "Tata"
+    }
+]

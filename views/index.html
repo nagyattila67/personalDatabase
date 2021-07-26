@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Személyek - adatbázis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-primary" id="load-data-button">Adatok lekérdezése</button>
+        <button class="btn btn-primary" id="data-in-new-window-button">Adatok megjelenítése új ablakban</button>
+        <table class="table table-striped table-hover">
+            <tbody id="data-content"></tbody>
+        </table>
+
+        <div id="div-for-form">
+            <!--<form id="members-data-form" action="/" taget="_self" method="POST">-->
+            <form id="members-data-form">
+                <label>Név:
+                    <input required type="text" name="name" id="name-input" class="form-control">
+                </label>
+                <label>Életkor:
+                    <input required type="number" name="age" id="age-input" class="form-control">
+                </label>
+                <label>
+                    Város:
+                    <input required type="text" name="city" id="city-input" class="form-control">
+                </label>
+                <label>
+                    Faj:
+                    <select id="species-select" name="species" class="form-control">
+                        <option value="human">human</option>
+                        <option value="alien">alien</option>
+                        <option value="intruder">intruder</option>
+                        <option value="reptilian">reptilian</option>
+                        <option value="kiborg">kiborg</option>
+                    </select>
+                </label>
+                <button type="submit" id="send-data-button" class="btn btn-primary btn-small">Küld</button>
+                <button type="reset" class="btn btn-primary btn-small">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
